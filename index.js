@@ -32,7 +32,7 @@ function Counter(props) {
     <button onClick={handleClick}>Increment</button>
     </div>;
 }
-
+//rudux mapDispatchToProps
 function mapStateToProps(state) {
   return {
     count: state.count
